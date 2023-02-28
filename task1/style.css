@@ -6,10 +6,18 @@ article, aside, canvas, details, embed, figure, figcaption, footer, header, hgro
 margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
-body {line-height: 1;}
-ol, ul {list-style: none;}
-blockquote, q {quotes: none;}
-blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
+body {
+  line-height: 1;
+  }
+ol, ul {
+  list-style: none;
+    }
+blockquote, q {
+  quotes: none;
+    }
+blockquote:before, blockquote:after,q:before, q:after {
+  content: '';content: none;
+  }
 table {border-collapse: collapse;border-spacing: 0;}
 /*Generic Css*/
 h1{font-size:60px;color: #fff;font-family:Segoe_UI_Bold;}
@@ -59,32 +67,3 @@ p{font-size: 16px;color: #fff;font-family:Segoe_UI;}
 .footer1 .footer1_links ul li{margin: 20px 0;}
 .footer1 .footer1_links ul li a{color: #fff;text-decoration: none;}
 .footer1 .footer1_links ul li a:hover{color:#df2229;}
-/*Footer2 section*/
-.footer2{background-color: #000;border:1px solid transparent;}
-.footer2 p{margin-top:20px ;margin-bottom:20px ;text-align: center;}
-.footer2 span{color: #df2229;}
-/*About Section*/
-.about{margin: 130px 0 100px;}
-.about p{color: #000;line-height: 24px;font-family:Segoe_UI;}
-.about .abt_img{max-width: 390px;float: left;}
-.about .abt_img2{max-width: 390px;float: left;margin-left:24px;}
-.about .abt_para{max-width:756px;float: left;margin-left:24px;}
-.about .abt_para2{max-width:756px;float: left;}
-.about .para_middle{margin:40px 0 ;}
-/*Feedback Section*/
-.feedback{margin:68px 50px;background: url(../img/feedback_background.png) no-repeat;background-size: cover;max-width: 990px;padding: 40px;}
-.feedback .feedback_header{font-family:Segoe_UI_Bold;font-size:24px;margin: 0 auto;background-color:#93252a ;color: #fff;max-width: 750px;padding: 30px 0;text-align: center;}
-.feedback form input[type="text"]{margin: 50px 15px 0 35px;width: 412px;height: 20px;background-color:#9c9c9d ;border: none;padding: 10px;}
-.feedback form input[type="email"]{margin: 50px 15px 0 35px;width: 412px;height: 20px;background-color:#9c9c9d ;border: none;padding: 10px;}
-.feedback form{color: #fff;font-size: 20px;}
-.feedback form p{margin: 50px 35px 30px;font-family:Segoe_UI;}
-.feedback form label{margin-left:30px;}
-.feedback form textarea{width: 950px;height: 170px;background-color:#9c9c9d;margin-left: 30px;}
-.feedback form button{padding: 20px 90px; ;background-color:#8f2027 ;color: #fff;border: none;margin:40px 0 0 358px;text-align: right;font-size: 22px;font-family:Segoe_UI_Bold; }
-/*Contact Section*/
-.contact{margin: 100px 50px;max-width:1070px;}
-.contact .contact_head{width: 35%;background-color: #000;float: left;padding:112px 0;}
-.contact .contact_form{width: 55%;background-color: #616161;float: left;border: 1px solid transparent;padding:50px;}
-.contact form{color: #fff;font-size:20px ;font-family:Segoe_UI_Bold;}
-.contact form input,.contact form textarea{margin: 30px 0;padding: 15px;background-color:#434343 ;border: none;width:90%;}
-.contact form button{background-color:#ba3439 ;padding: 15px 40px;color: #fff;border: 0;margin: 0 230px;font-size: 20px;}
